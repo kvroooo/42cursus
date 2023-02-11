@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_range.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: smlamali <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: smlamali <smlamali@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/20 13:06:59 by smlamali          #+#    #+#             */
-/*   Updated: 2022/08/31 12:45:04 by smlamali         ###   ########.fr       */
+/*   Updated: 2023/02/10 15:04:04 by smlamali         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,14 +35,13 @@ int	*ft_range(int min, int max)
 		min ++;
 	}
 	return (tab);
-
 }
 
-int main(void)
+int	main(void)
 {
 	int	i;
-	int *tab2;
-	
+	int	*tab2;
+
 	i = 0;
 	tab2 = ft_range(200, 200);
 	while (i < (200 - 200))
